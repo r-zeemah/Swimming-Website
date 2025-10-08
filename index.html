@@ -1,14 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Full Website</title>
-</head>
-<body>
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="/assets/font-awesome/css/font-awesome.min.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="Style/style-nav.css" />
+    <link rel="stylesheet" href="Style/style-hero.css">
+    <link rel="stylesheet" href="Style/style-responsiveness.css">
+    <title>Javascript Full website</title>
+  </head>
+  <body>
+    <!-- NAVIGATION SECTION -->
 
-    <script src="script.js"></script>
-</body>
+    <nav>
+      <div class="logo">
+        <img
+          src="https://img.icons8.com/?size=100&id=F5hS0lqFjmWH&format=png&color=0092fc"
+          alt="Logo"
+        />
+      </div>
+
+      <div class="nav-links">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Swimming course</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="cta">
+        <a href="#" class="btn">Get started now</a>
+      </div>
+
+      <div class="small-screen-menu-icons">
+        <img
+          src="https://img.icons8.com/?size=100&id=59832&format=png&color=0092fc"
+          alt="menu-icon"
+          id="menu-icon"
+          class="hamburger-icon"
+        />
+
+        <img
+          src="https://img.icons8.com/?size=100&id=3062&format=png&color=0092fc"
+          alt="menu-icon"
+          id="menu-icon"
+          class="close-icon"
+        />
+      </div>
+    </nav>
+
+    <div class="small-screen-menu" id="small-screen-menu">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Swimming course</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+      <div class="cta">
+        <a href="#" class="btn">Get started now</a>
+      </div>
+    </div>
+
+    <main>
+      <!-- Hero section -->
+
+      <section class="hero-section">
+        <video autoplay muted loop class="swimVideo">
+          <source
+            src="https://www.pexels.com/download/video/8685996/"
+            type="video/mp4"
+          />
+        </video>
+
+        <div class="hero-text">
+          <img src="https://img.icons8.com/?size=100&id=8J5wTgo911ln&format=png&color=FFFFFF" class="wave-img" >
+          <h1>We make water people</h1>
+          <p>Learning to swim without fear - that is our mission</p>
+          <a href="#" class="btn">Get started now</a>
+        </div>
+      </section>
+
+      <section class="hero-section-2">
+        <div class="hero-text-2">
+          <img src="https://img.icons8.com/?size=100&id=cnqCNuWtsWeL&format=png&color=000000" alt="Person Swimming">
+          <h3>Swimming Pools</h3>
+          <p>You learn to swim in the summer! Find a partner swimming school in your area</p>
+          <a href=".">Show swimming schools</a>
+        </div>
+
+        <div class="hero-text-2">
+          <img src="https://img.icons8.com/?size=100&id=104891&format=png&color=000000" alt="">
+          <h3>Swimming Lessons</h3>
+          <p>
+            Anyone can learn to swim. But can it be done in a fun and playful way and without any fear?
+            We have been practicing our modular system for over 10 years
+          </p>
+          <a href=".">Show swimming lessons</a>
+        </div>
+
+        <div class="hero-text-2">
+          <img src="https://img.icons8.com/?size=100&id=WgbMP9EKuH5c&format=png&color=000000" alt="">
+          <h3>Parents teach swimming</h3>
+          <p>
+            Many parents don't know how to help their chile during the "learning to swim" phase.
+            We'll show you
+          </p>
+          <a href=".">More Info</a>
+        </div>
+      </section>
+
+      <section class="hero-section-3">
+        <div class="images">
+          <img src="https://plus.unsplash.com/premium_photo-1719607034984-d097cec0a36d?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="img-1">
+          <img src="https://images.unsplash.com/photo-1635905110746-90eb9a6d7958?q=80&w=874&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="img-2">
+        </div>
+
+        <div>
+          <img src="https://img.icons8.com/?size=100&id=8J5wTgo911ln&format=png&color=007bff" class="wave-img">
+          <h2>Become a partner</h2>
+          <p>
+            Would you like to start your own swimming school? <br>
+            Do you want to help many children becone water-safe <br>
+            through fun and games?
+          </p>
+          <article> ✅ Complete course & module processing </article>
+          <article> ✅ Booking platform & customer processsing </article>
+          <article> ✅ Included swim school website with content </article>
+          <button> Learn More </button>
+        </div>
+      </section>
+    </main>
+
+    <script src="Script/script.js"></script>
+  </body>
 </html>

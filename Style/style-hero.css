@@ -1,0 +1,140 @@
+/* Hero Section 1 */
+
+.hero-section{
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 80px);
+  background-color: red;
+}
+.swimVideo{
+  width: 100vw !important;
+  height: 100%;
+  background-color: green;
+  object-fit: cover;
+
+}
+.swimVideo source{
+  width: 100vw !important;
+  height: 100%;
+  background-color: green;
+  object-fit: cover;
+}
+
+.hero-text{
+  position: absolute;
+  display: flex;
+  top: -130px; /*Despite setting the top to negative, why did the gradient not shift with it?*/
+  left: 0;
+  right:0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(0,0,0,0), rgba(1, 30, 135, 0.918));
+  color: white;
+  text-align: center;
+}
+.wave-img{
+    width: 100px;
+    height: 50px;
+}
+.hero-image{
+    color: #fff;
+}
+.hero-text h1{
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+.hero-text a{
+  text-decoration: none;
+  color: #fff;
+  background-color: #007bff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top:40px;
+  transition: background-color 0.3s;
+}
+.hero-text a:hover{
+  background-color: #0056b3;
+}
+
+/* Hero Section 2 */
+
+.hero-section-2{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  border-radius: 10px;
+  margin: 0 140px;
+  box-shadow: 1px 2px 5px rgb(0, 0, 0, 0.1); /*What is the 0.1 doing?*/
+  padding: 40px 30px;
+  transform: translate(0, -50%);
+  gap: 68px;
+}
+
+.hero-text-2{
+  font-size: 12px;
+}
+.hero-section-2 img{
+  width: 50px;
+}
+.hero-section-2 h3{
+  font-weight: 600;
+}
+.hero-section-2 p{
+  font-weight: 450;
+  margin: 10px 0;
+}
+.hero-section-2 a{
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+}
+.hero-section-2 a:hover{
+  color: #007bff;
+}
+
+/* Hero Section 3 */
+
+.hero-section-3{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.img-1{
+    border-radius: 15px;
+    height: 400px;
+    width: 260px;
+}
+.img-2{
+    width: 210px;
+    height: 310px;
+    border-radius: 15px;
+}
+.hero-section-3 h2{
+    font-weight: 600;
+    font-size: 28px;
+}
+.hero-section-3 p{
+    margin: 8px 0;
+}
+.hero-section-3 article{
+    line-height: 30px;
+}
+.hero-section-3 button{
+    border: none;
+    background-color: #007bff;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    color: #fff;
+    font-weight: 500;
+}
