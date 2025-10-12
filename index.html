@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="Style/style-hero.css">
     <link rel="stylesheet" href="Style/style-responsiveness.css">
     <link rel="stylesheet" href="Style/style-subhero.css">
+    <link rel="stylesheet" href="Style/style-footer.css">
     <title>Swimming Website</title>
   </head>
   <body>
@@ -79,7 +80,7 @@
         </video>
 
         <div class="hero-text">
-          <img src="https://img.icons8.com/?size=100&id=8J5wTgo911ln&format=png&color=FFFFFF" class="wave-img" >
+          <img src="https://img.icons8.com/?size=100&id=8J5wTgo911ln&format=png&color=FFFFFF" class="wave-img" id="smallscreen-wave-img">
           <h1>We make water people</h1>
           <p>Learning to swim without fear - that is our mission</p>
           <a href="#" class="btn">Get started now</a>
@@ -140,7 +141,7 @@
     <!-- SUB HERO SECTION -->
     <main>
       <section class="subhero-section-1">
-        <div>
+        <div class="water-people">
           <img src="https://img.icons8.com/?size=100&id=8J5wTgo911ln&format=png&color=007bff" class="wave-img">
           <h3>We make water people</h3>
           <article>
@@ -152,9 +153,11 @@
             <p> <span class="subhero-span-4"> 297k+ </span> <br> Super Agents </p>
           </article>
         </div>
-
         <div class="subhero-video">
-          <video src=""></video>
+          <img src="https://images.unsplash.com/photo-1593792876950-fcdb721d81d2?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1849" class="subhero-img-1 subhero-img">
+          <img src="https://images.unsplash.com/photo-1678816158232-62772dbb6d42?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&q=60&w=600" class="subhero-img-2 subhero-img">
+          <span class="watch-video">▶️ Watch video</span>
+          <span class="tenk-people">10k+ Students</span>
         </div>
       </section>
 
@@ -163,8 +166,7 @@
           <img src="https://img.icons8.com/?size=100&id=8J5wTgo911ln&format=png&color=007bff" class="wave-img">
           <h2>What parents say about us</h2>
        </div>
-
-       <section>
+       <section >
          <article>
             <div class="subhero-name">Karin Abele <br> 15/06/2024 </div>
             <div class="initials-1">KA</div>
@@ -172,7 +174,6 @@
             Even a child who has had bad experiences with water can become a safe swimmer here. It takes time but it's worth it. There's nothing better for me than sitting at the edge of the pooland not being afriad that my child might drown and watching him enjoy the water to the fullest
            </p>
          </article>
-
          <article>
            <div class="subhero-name">Karl Marz <br>19/08/2022 </div>
            <div class="initials-2">KM</div>
@@ -184,15 +185,106 @@
       </section>
 
       
-       <section class="subhero-section-3">
-         <div>
-            <img src="https://img.icons8.com/?size=100&id=8J5wTgo911ln&format=png&color=007bff" class="wave-img">
-            <h2>Our Latest News</h2>
-            <button>View More</button>
-         </div>
-       </section>
+      <section class="subhero-section-3">
+        <div id="our-news">
+          <img src="https://img.icons8.com/?size=100&id=8J5wTgo911ln&format=png&color=007bff" class="wave-img">
+         <button>View More</button>
+        </div>
+        <h2>Our Latest News</h2>
+        <div id="articles">
+          <article id="article-1">
+            <img src="https://plus.unsplash.com/premium_photo-1701030722699-6daeea040f89?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=870" id="news-img">
+            <h6>Equipment</h6>
+            <h5>Swimming googles vs. diving googles</h5>
+            <p>
+              We compare swimming googles with diving googles. Swimming googles are essentially made for  swimming but are absolutely suitable...
+            </p>
+          </article>
+          <article id="article-2">
+            <img src="https://images.unsplash.com/photo-1726800789235-e2c75e169eae?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=867" id="news-img">
+            <h6>General</h6>
+            <h5>Self-employed on maternity leave</h5>
+            <p>
+              Security, a stable income is on of these essential factors and especially now one of our greatest needs. And yet...
+            </p>
+          </article>
+          <article id="article-3">
+            <img src="https://plus.unsplash.com/premium_photo-1663134285656-ea60684fa3bd?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=467" id="news-img">
+            <h6>Learn to swim without fear</h6>
+            <h5>Small Groups</h5>
+            <p>
+               Only in small groups(4-6 children someitmes even only 3) is it possible to swim without fear 
+            </p>
+          </article>
+        </div>
+      </section>
 
     </main>
+
+    <!-- FOOTER SECTION -->
+    <footer>
+      <div id="footer-1">
+        <img src="https://img.icons8.com/?size=100&id=8J5wTgo911ln&format=png&color=007bff" class="wave-img">
+        <h2>Our Promise</h2>
+        <p>
+          Our partner swimming schools are all certified and tested. Every swimming instructor is obliged to receive training directly from us in order to guarantee the quality standard.
+        </p>
+        <button id="footer-btn">Show swimming schools</button>
+      </div>
+      <div id="footer-2">
+        <article>
+          <h5>Generally</h5>
+          <ul>
+            <li>Home</li>
+            <li>About us</li>
+            <li>Swimming Course</li>
+            <li>Pricing</li>
+            <li>News</li>
+          </ul>
+        </article>
+        <article>
+          <h5>Business</h5>
+          <ul>
+            <li>Blog</li>
+            <li>Shop</li>
+            <li>Contact</li>
+          </ul>
+        </article>
+        <article>
+          <h5>Security</h5>
+          <ul>
+            <li>Privacy Policy</li>
+            <li>Terms & Condition</li>
+            <li>FAQ</li>
+          </ul>
+        </article>
+        <article>
+          <h5>Kontakt aufnehemen</h5>
+          <ul>
+            <li>
+              <img src="https://img.icons8.com/?size=100&id=9660&format=png&color=FAB005" alt=""> +356 170 - 7088015
+            </li>
+            <li>
+              <img src="https://img.icons8.com/?size=100&id=3723&format=png&color=FAB005" alt="">
+              Gopprechts 10, 87448 Gopprechts
+            </li>
+            <li>
+              <img src="https://img.icons8.com/?size=100&id=TCnKnYZFoOzM&format=png&color=FAB005" alt="">
+              hi@wassermenschen.org
+            </li>
+          </ul>
+        </article>
+      </div>
+      <div id="footer-3">
+         <article> <span> All rights are reserved @Swimsko 2024 </span> </article>
+         <article>
+           <img src="https://img.icons8.com/?size=100&id=84872&format=png&color=FFFFFF" alt="">
+           <img src="https://img.icons8.com/?size=100&id=ms3ftPftW1cW&format=png&color=FFFFFF" alt="">
+           <img src="https://img.icons8.com/?size=100&id=60014&format=png&color=FFFFFF" alt="">
+           <img src="https://img.icons8.com/?size=100&id=37326&format=png&color=FFFFFF" alt="">
+         </article>
+      </div>
+    </footer>
 
     <script src="Script/script.js"></script>
   </body>

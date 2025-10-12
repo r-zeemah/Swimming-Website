@@ -66,20 +66,33 @@
   background-color: white;
   border-radius: 10px;
   margin: 0 140px;
-  box-shadow: 1px 2px 5px rgb(0, 0, 0, 0.1); /*What is the 0.1 doing?*/
-  padding: 40px 30px;
+  box-shadow: 1px 2px 5px rgb(0, 0, 0, 0.1); /*What is the 0.1 doing? It shows how deep the shadow under should be */
+  padding: 24px 10px;
   transform: translate(0, -50%);
-  gap: 68px;
+  gap: 40px;
 }
 
 .hero-text-2{
   font-size: 12px;
+  flex: 1;
+  transition: all 0.3s;
+  cursor: pointer;
+  padding: 20px;
 }
+.hero-text-2:hover{
+  transform: translateY(-10px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
 .hero-section-2 img{
   width: 50px;
 }
 .hero-section-2 h3{
   font-weight: 600;
+}
+.hero-section-2 h3:hover{
+  color: #007bff;
 }
 .hero-section-2 p{
   font-weight: 450;
@@ -112,12 +125,12 @@
 }
 .img-1{
     border-radius: 15px;
-    height: 400px;
-    width: 260px;
+    height: 380px;
+    width: 240px;
 }
 .img-2{
-    width: 210px;
-    height: 310px;
+    width: 190px;
+    height: 290px;
     border-radius: 15px;
 }
 .hero-section-3 h2{

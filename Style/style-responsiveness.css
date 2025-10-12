@@ -16,13 +16,96 @@
     .hero-section-2{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         font-size: 6px;
-        gap: 10px;
-        transform: translateY(-20%);
+        gap: 20px;
         padding: 10px;
+        width: 80%;
+        transform: translateY(0%);
+        margin: 20px 60px 70px 30px;
     }
     .hero-section-3{
         padding: 0 50px;
+        display: flex;
+        flex-direction: column;
     }
-    
+    .images{
+        display: flex;
+        flex-direction: column;
+    }
+    .img-1{
+        z-index: 1;
+    }
+    .img-2{
+        z-index: 2;
+        transform: translate(25%,-25%);
+    }
+    .subhero-section-1{
+        flex-direction: column;
+    }
+    .subhero-section-2 section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .subhero-section-2 section article{
+        width: 270px;
+        margin-bottom: 30px;
+        /* transform: translateX(-130px); */
+    }
+#articles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+}
+
+@media screen and (max-width: 750px) {
+    .subhero-section-1{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    #articles{
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 20px !important;
+    }
+    .subhero-section-1 article{
+        gap: 10px !important;
+    }
+    .subhero-section-1 p{
+    width: 140px !important;
+    }
+    .subhero-img-2{
+   left: 170px !important;
+   }
+   .water-people{
+    padding-left: 15px;
+   }
+   #footer-2{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: start !important;
+    padding: 15px 60px !important;
+    gap: 20px !important;
+}
+   #footer-3{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 15px !important;
+   }
+   #footer-3 span{
+    font-size: 11px !important;
+   }
+   #smallscreen-wave-img{
+    transform: translateY(355px);
+   }
 }
