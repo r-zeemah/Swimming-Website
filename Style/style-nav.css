@@ -181,7 +181,7 @@ nav .small-screen-menu-icons img{
 .small-screen-menu{
     display:none;
     position: fixed;
-    top: 70px;
+    top: 0px;
     left: 0px;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -191,6 +191,15 @@ nav .small-screen-menu-icons img{
     padding: 20px 40px;
     height:100vh;
 
+}
+.small-screen-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.small-screen-wrapper img{
+  width: 40px;
+  height: 40px;
 }
 .small-screen-menu ul{
     list-style: none;
